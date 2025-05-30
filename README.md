@@ -3,11 +3,9 @@ This repository showcases my completed version of the Mathematical Surfaces - Co
 
 I learned from this project:
 
-*Writing and integrating compute shaders in Unity
-
-*Performing parallel computations via the GPU
-
-*Visualizing mathematical functions graphically
+-Writing and integrating compute shaders in Unity
+-Performing parallel computations via the GPU
+-Visualizing mathematical functions graphically
 
 Here is the final result of tutorials
 <p align="center">
