@@ -1,13 +1,11 @@
 # Mathematical-Surfaces---Compute-Shaders
 This repository showcases my completed version of the Mathematical Surfaces - Compute Shaders tutorial by Jasper Flick from Catlike Coding. It features dynamic generation and animation of various mathematical surfaces on the GPU using Unity compute shaders.
 
-What I learned from this project:
+I learned from this project:
 
-Writing and integrating compute shaders in Unity
-
-Performing parallel computations via the GPU
-
-Visualizing mathematical functions graphically
+-Writing and integrating compute shaders in Unity
+-Performing parallel computations via the GPU
+-Visualizing mathematical functions graphically
 
 This project marked an important step in my journey to understanding GPU programming and shader systems more deeply.
 
