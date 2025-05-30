@@ -13,7 +13,7 @@ Here is the final result of tutorials
 </p>
 
 
-# I also did my own hlsl shaders and graphs
+### I also did my own hlsl shaders and graphs
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9c6b2b80-f872-49b7-bb1d-38fe6a805b22" alt="GIF" />
