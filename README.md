@@ -12,4 +12,8 @@ Here is the final result of tutorials
   <img src="https://github.com/user-attachments/assets/29c3f472-bf15-4969-868c-3e0108c2b612" alt="GIF" />
 </p>
 
-//![Image](https://github.com/user-attachments/assets/29c3f472-bf15-4969-868c-3e0108c2b612)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9c6b2b80-f872-49b7-bb1d-38fe6a805b22" alt="GIF" />
+</p>
+
+![Image](https://github.com/user-attachments/assets/9c6b2b80-f872-49b7-bb1d-38fe6a805b22)
