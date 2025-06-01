@@ -17,7 +17,9 @@ Here is the final result of tutorials
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9c6b2b80-f872-49b7-bb1d-38fe6a805b22" alt="GIF" />
-   <figcaption><small>Hump Function</small></figcaption>
+  <p align="center">
+    <figcaption><small>Hump Function</small></figcaption>
+  </p>
 </p>
 
 
