@@ -19,7 +19,7 @@ Here is the final result of tutorials
   <img src="https://github.com/user-attachments/assets/9c6b2b80-f872-49b7-bb1d-38fe6a805b22" alt="GIF" />
 </p>
 <p align="center">
-  <slm>
+  slm
 </p>
 
 
