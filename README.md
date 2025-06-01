@@ -14,11 +14,11 @@ what I learned from this project:
 ### I also did my own hlsl shaders and graphs
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9c6b2b80-f872-49b7-bb1d-38fe6a805b22" alt="GIF" />
+  <img src="https://github.com/user-attachments/assets/9c6b2b80-f872-49b7-bb1d-38fe6a805b22" alt="GIF" /><br />
   <small>Hump Function</small>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/50627d72-4de6-4aa8-ba1c-e4d37aa1a7ec" alt="GIF" />
+  <img src="https://github.com/user-attachments/assets/50627d72-4de6-4aa8-ba1c-e4d37aa1a7ec" alt="GIF" /><br />
   <small>Long Wave Function</small>
 </p>
