@@ -32,16 +32,19 @@ public static class FunctionLibrary
 		p.z = v;
 		return p;
 	}
-	public static Vector3 Ripple(float u, float v, float t)
+
+	/*public static Vector3 Ripple(float u, float v, float t)
 	{
 		float d = Sqrt(u * u + v * v);
 		Vector3 p;
 		p.x = u;
 		p.y = Sin(PI * (4f * d - t));
-		p.y /= 1f + 10f * d;
+		p.y /= 1f + 10f * d; // =/ operatörü py = py / ...  anlamına gelir
 		p.z = v;
 		return p;
-	}
+	}*/
+
+
 	public static Vector3 Sphere(float u, float v, float t)
 	{
 		//float r = 0.5f + 0.5f * Sin(PI * t); 							//Küre
@@ -94,8 +97,10 @@ public static class FunctionLibrary
 		{
 			return 0;
 		}
-		//return (int)name < functions.Length - 1 ? name + 1 : 0; //tek satırda da yazılabilir
+		//return (int)name < functions.Length - 1 ? name + 1 : 0;  //tek satırda da yazılabilir
 	}
+	//public static FunctionName GetNextFunctionName (FunctionName name) => (int)name < functions.Length - 1 ? name + 1 : 0;   // üstteki tüm foksiyonun çok daha sade hali (set olmadığı için)
+
 
 	public static FunctionName GetRandomFunctionNameOtherThan(FunctionName name)
 	{
@@ -108,4 +113,38 @@ public static class FunctionLibrary
 		return Vector3.LerpUnclamped(from(u, v, t), to(u, v, t), SmoothStep(0f, 1f, progress)); //LerpUnclamped neden?
 	}
 
+
+
+
+
+
+
+	public static int FunctionCount
+	{
+		get
+		{
+			return functions.Length;
+		}
+		//get => functions.Length;  //üstteki get bolğunun daha kısa yazımı
+	}
+
+	//public static int FunctionCount => functions.Length; // üstteki tüm fonksiyonun "set" olmadığı için daha da sade hali.
+
+
+
+
+
+	public static Vector3 Ripple(float u, float v, float t)
+	{
+    float d = Sqrt(u * u + v * v); // Merkezden uzaklık
+    Vector3 p;
+    p.x = u;
+    p.z = v;
+
+    // Zamanla solan bir tümsek (Gaussian dağılım benzeri)
+    p.y = Exp(-5f * d * d) * Cos(t); 
+
+    return p;
+	}
 }
+

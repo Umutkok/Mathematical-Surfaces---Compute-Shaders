@@ -43,13 +43,15 @@ public class Graph : MonoBehaviour
     void Update()
     {
         duration += Time.deltaTime;
+
+
         if (transitioning)
         {
-            	if (duration >= transitionDuration)
+            if (duration >= transitionDuration)
             {
-				duration -= transitionDuration;
-				transitioning = false;
-			}
+                duration -= transitionDuration;
+                transitioning = false;
+            }
         }
         else if (duration >= functionDuration)
         {
@@ -58,15 +60,18 @@ public class Graph : MonoBehaviour
             transitionFunction = function;
             PickNextFunction();
         }
-        
+
         if (transitioning)
         {
-			UpdateFunctionTransition();
-		}
-		else
+            UpdateFunctionTransition();
+        }
+        else
         {
-			UpdateFunction();
-		}
+            UpdateFunction();
+        }
+        
+        
+
     }
 
     void UpdateFunction()

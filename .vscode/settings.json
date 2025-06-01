@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Mathematical-Surfaces---Compute-Shaders.sln"
+    "dotnet.defaultSolution": "Shader Graph.sln"
 }
