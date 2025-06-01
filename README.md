@@ -21,4 +21,3 @@ Here is the final result of tutorials
 <p align="center">
   <img src="https://github.com/user-attachments/assets/50627d72-4de6-4aa8-ba1c-e4d37aa1a7ec" alt="GIF" />
 </p>
-![Image](https://github.com/user-attachments/assets/50627d72-4de6-4aa8-ba1c-e4d37aa1a7ec)
