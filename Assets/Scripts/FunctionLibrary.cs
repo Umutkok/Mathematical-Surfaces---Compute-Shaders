@@ -4,7 +4,6 @@ using static UnityEngine.Mathf;
 public static class FunctionLibrary
 {
 	public delegate Vector3 Function(float u, float v, float t);
-
 	public enum FunctionName { Wave, MultiWave, Ripple, Sphere, Torus }
 	static Function[] functions = { Wave, MultiWave, Ripple, Sphere, Torus };
 

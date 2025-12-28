@@ -11,7 +11,7 @@ Shader "Graph/Point Surface GPU"
         #pragma editor_sync_compilation
         #pragma target 4.5
 
-        #include "PointGPU.hlsl" //
+        #include "PointGPU.hlsl" // point surface shader hlsl de yazdığımızı eklediğimiz için alttakine gerek kalmadı
         
         struct Input {
 			float3 worldPos;

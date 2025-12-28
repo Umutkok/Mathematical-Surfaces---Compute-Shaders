@@ -117,7 +117,6 @@ float3 Torus (float u, float v, float t) {
 	p.z = s * cos(PI * u);
 	return p;
 }
-
 //Açıklama:
 //Makrolar, derleyici tarafından kodun yerini doldurmak için string gibi işlenir, O yüzden kuralları çok hassastır. Daha önce PI için kullanmıştım.
 //#define sadece satır sonuna kadar geçerli,
